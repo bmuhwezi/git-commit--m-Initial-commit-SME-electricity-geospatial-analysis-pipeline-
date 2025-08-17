@@ -42,10 +42,12 @@ Kenya-sme-electricity-geospatial-analysis/
 │   ├── clustering_analysis.py   # Customer segmentation
 │   ├── rural_urban_classifier.py# Geographic classification
 │   └── visualizations.py       # Plotting utilities
+    └── visualizations.R       # Plotting utilities
 └── outputs/
     ├── features/                # Extracted feature datasets
     ├── plots/                   # Generated visualizations
     └── results/                 # Final analysis results
+    
 ```
 
 ## Data Sources
