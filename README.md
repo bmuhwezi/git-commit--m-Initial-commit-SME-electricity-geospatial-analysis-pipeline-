@@ -134,10 +134,6 @@ python feature_extraction/population_extraction.py 5
 
 The pipeline generates:
 
-1. **`DF_features.csv`**: Final panel dataset ready for econometric analysis
-2. **Feature-specific datasets**: Individual feature extractions in `/outputs/features/`
-3. **Visualizations**: Consumption patterns and spatial distributions
-4. **Summary statistics**: Data quality and coverage reports
 
 ## Pipeline Workflow
 
