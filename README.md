@@ -20,9 +20,8 @@ Kenya-sme-electricity-geospatial-analysis/
 ├── requirements.txt
 ├── config.py                    # Configuration and file paths
 ├── main.py                      # Main pipeline orchestrator
-├── data/
-│   ├── raw/                     # Raw input data (not tracked)
-│   └── processed/               # Cleaned datasets
+├── main.R                      # Main pipeline orchestrator
+│
 ├── feature_extraction/
 │   ├── fsp_extraction.py        # Financial service providers
 │   ├── population_extraction.py # Population density (WorldPop)
@@ -33,20 +32,24 @@ Kenya-sme-electricity-geospatial-analysis/
 │       ├── population_array.sh
 │       ├── roads_array.sh
 │       └── nightlights_array.sh
+│ 
 ├── utils/
 │   ├── data_processing.R         # Data preprocessing utilities
 │   ├── utility_functions.R         # Data preprocessing utilities
 │   ├── data_cleaning.py         # Data preprocessing utilities
 │   ├── spatial_utils.py         # Spatial calculation functions
 │   └── file_utils.py            # File I/O operations
+│
 ├── visualizations/
 │   ├── visualizations.py         # Plotting graphs python script
 │   └── visualization.py          # Plotting graphs R script
+│
 ├── analysis/
 │   ├── regression_models.R      # Contains panel data regression functions
 │   ├── consumption_analyzer.py  # Consumption pattern analysis
 │   ├── clustering_analysis.py   # Customer segmentation
 │   └── rural_urban_classifier.py# Geographic classification
+│
 └── outputs/
     ├── features/                # Extracted feature datasets
     ├── plots/                   # Generated visualizations
