@@ -153,7 +153,7 @@ The pipeline generates:
 - **Geospatial libraries**: GeoPandas, Rasterio, Shapely, GDAL
 - **Scientific computing**: Pandas, NumPy, SciPy
 - **Cluster computing**: SLURM workload manager
-- **Memory**: 10GB+ RAM per process for large raster operations
+
 
 ## Performance
 
@@ -162,12 +162,5 @@ The pipeline generates:
 - **Output size**: ~500MB final dataset
 - **Scalability**: Designed for 10,000+ SME locations
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-analysis`)
-3. Make changes and test thoroughly
-4. Commit changes (`git commit -am 'Add new spatial feature'`)
-5. Push to branch (`git push origin feature/new-analysis`)
-6. Create Pull Request
 
