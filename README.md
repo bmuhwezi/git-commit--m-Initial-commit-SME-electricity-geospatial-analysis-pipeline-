@@ -1,4 +1,4 @@
-# Effects of Complementary Infrastructure on SME electricity consumption in Kenya
+# Effects of Complementary Infrastructure on SME Electricity Consumption in Kenya
 A comprehensive geospatial analysis pipeline for examining Small and Medium Enterprise (SME) electricity consumption patterns in Kenya using multiple spatial features.
 
 ## Overview
@@ -10,7 +10,7 @@ This repository contains code and tools for analyzing the relationship between S
 - **Geospatial Feature Extraction**: Extract features within 500m buffers around each SME location
 - **Parallel Processing**: SLURM-based cluster computing for large-scale data processing
 - **Multiple Data Sources**: Integration of satellite imagery, census data, and utility records
-- **Panel Data Preparation**: Creates analysis-ready datasets for econometric modeling
+- **Panel Data Regression**: Perfomes panel data Fixed Effects regression
 
 ## Repository Structure
 
