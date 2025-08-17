@@ -43,10 +43,10 @@ Kenya-sme-electricity-geospatial-analysis/
 │   ├── visualizations.py         # Plotting graphs python script
 │   └── visualization.py          # Plotting graphs R script
 ├── analysis/
+│   ├── regression_models.R      # Contains panel data regression functions
 │   ├── consumption_analyzer.py  # Consumption pattern analysis
 │   ├── clustering_analysis.py   # Customer segmentation
-│   ├── rural_urban_classifier.py# Geographic classification
-│   └── visualizations.py       # Plotting utilities
+│   └── rural_urban_classifier.py# Geographic classification
 └── outputs/
     ├── features/                # Extracted feature datasets
     ├── plots/                   # Generated visualizations
