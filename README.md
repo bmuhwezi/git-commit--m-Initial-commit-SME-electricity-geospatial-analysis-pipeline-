@@ -34,15 +34,19 @@ Kenya-sme-electricity-geospatial-analysis/
 │       ├── roads_array.sh
 │       └── nightlights_array.sh
 ├── utils/
+│   ├── data_processing.R         # Data preprocessing utilities
+│   ├── utility_functions.R         # Data preprocessing utilities
 │   ├── data_cleaning.py         # Data preprocessing utilities
 │   ├── spatial_utils.py         # Spatial calculation functions
 │   └── file_utils.py            # File I/O operations
+├── visualizations/
+│   ├── visualizations.py         # Plotting graphs python script
+│   └── visualization.py          # Plotting graphs R script
 ├── analysis/
 │   ├── consumption_analyzer.py  # Consumption pattern analysis
 │   ├── clustering_analysis.py   # Customer segmentation
 │   ├── rural_urban_classifier.py# Geographic classification
 │   └── visualizations.py       # Plotting utilities
-    └── visualizations.R       # Plotting utilities
 └── outputs/
     ├── features/                # Extracted feature datasets
     ├── plots/                   # Generated visualizations
