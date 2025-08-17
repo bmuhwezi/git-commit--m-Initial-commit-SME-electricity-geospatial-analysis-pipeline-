@@ -1,5 +1,4 @@
-# Kenya SME Electricity Geospatial Analysis
-
+# Effects of Complementary Infrastructure on SME electricity consumption in Kenya
 A comprehensive geospatial analysis pipeline for examining Small and Medium Enterprise (SME) electricity consumption patterns in Kenya using multiple spatial features.
 
 ## Overview
