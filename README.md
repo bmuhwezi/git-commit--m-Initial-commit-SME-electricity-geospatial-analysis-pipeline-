@@ -42,7 +42,7 @@ Kenya-sme-electricity-geospatial-analysis/
 │
 ├── visualizations/
 │   ├── visualizations.py         # Plotting graphs python script
-│   └── visualization.py          # Plotting graphs R script
+│   └── visualization.R          # Plotting graphs R script
 │
 ├── analysis/
 │   ├── regression_models.R      # Contains panel data regression functions
